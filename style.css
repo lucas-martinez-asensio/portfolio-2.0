@@ -140,14 +140,14 @@ body {
 }
 
 .textcont {
-  margin-top: -10rem;
+  margin-top: 10rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 70vw;
-  height: 49.5%;
+  height: auto;
   background-image: linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.062) 14.7%,
@@ -575,7 +575,7 @@ p {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 70rem;
   }
 
   .description .description__name {
@@ -597,9 +597,9 @@ p {
     justify-content: center;
     align-items: center;
     width: 33%;
-    height: 46%;
+    height: auto;
     background-image: linear-gradient(
-      45deg,
+      225deg,
       rgba(255, 255, 255, 0.062) 14.7%,
       rgb(6, 32, 38) 73%
     );
@@ -815,12 +815,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 33%;
-    height: 46%;
-    background-image: linear-gradient(
-      45deg,
-      rgba(255, 255, 255, 0.062) 14.7%,
-      rgb(6, 32, 38) 73%
-    );
+    height: auto;
     backdrop-filter: blur(0.5rem);
     border-radius: 7.5rem;
   }
@@ -837,7 +832,7 @@ p {
       justify-content: center;
       align-items: center;
       width: 23%;
-      height: 46%;
+      height: auto;
       background-image: linear-gradient(
         45deg,
         rgba(255, 255, 255, 0.062) 14.7%,
