@@ -13,13 +13,11 @@ closeMenuButton.addEventListener("click", toggleMenu);
 
 const aboutMeBtn = document.querySelector(".about-me");
 const skillsBtn = document.querySelector(".skills");
-const skillssBtn = document.querySelector(".skillss");
 const reposBtn = document.querySelector(".repos");
 const socialBtn = document.querySelector(".social");
 
 aboutMeBtn.addEventListener("click", toggleMenu);
 skillsBtn.addEventListener("click", toggleMenu);
-skillssBtn.addEventListener("click", toggleMenu);
 reposBtn.addEventListener("click", toggleMenu);
 socialBtn.addEventListener("click", toggleMenu);
 
