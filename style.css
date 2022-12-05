@@ -1,6 +1,6 @@
 :root {
   --text-color: #bebebe;
-  --back-color: #000000;
+  --back-color: rgb(0, 0, 0);
   --third-color: #6dff29;
 }
 
@@ -45,7 +45,7 @@ html {
   font-family: "Raleway", sans-serif;
   background-image: linear-gradient(
     180deg,
-    rgb(7, 13, 15) 40%,
+    rgb(7, 7, 7) 40%,
     rgb(6, 32, 38) 73%
   );
   background-size: 200% 200%;
@@ -500,7 +500,7 @@ p {
   }
 
   .projects h2 {
-    margin-top: 2.5rem;
+    margin-top: 2.7rem;
     margin-bottom: 2rem;
   }
 
@@ -735,6 +735,7 @@ p {
   }
 
   .knowledge h2 {
+    /* margin-top: -1rem; */
     font-size: 2.5rem;
   }
 
@@ -782,10 +783,6 @@ p {
 
   .textknow {
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: auto;
     background-image: linear-gradient(
@@ -796,11 +793,6 @@ p {
     backdrop-filter: blur(0.5rem);
     border-radius: 10rem;
     transition: all ease-in-out 350ms;
-  }
-
-  .knowledge__conocimientos h2 {
-    display: flex;
-    align-self: flex-end;
   }
 
   .knowledge__conocimientos p {
