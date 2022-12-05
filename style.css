@@ -45,7 +45,7 @@ html {
   font-family: "Raleway", sans-serif;
   background-image: linear-gradient(
     180deg,
-    rgb(7, 7, 7) 40%,
+    rgb(8, 17, 17) 40%,
     rgb(6, 32, 38) 73%
   );
   background-size: 200% 200%;
@@ -426,6 +426,7 @@ p {
 }
 
 .item-content {
+  margin: 1rem;
   height: 30%;
   width: 70%;
   display: flex;
@@ -434,6 +435,27 @@ p {
   justify-content: center;
   align-items: center;
   transition: 0.4s;
+}
+
+.textpro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.062) 14.7%,
+    rgb(6, 32, 38) 73%
+  );
+  backdrop-filter: blur(0.5rem);
+  border-radius: 10rem;
+  transition: all ease-in-out 350ms;
+}
+
+.textpro h1 {
+  margin-top: 1rem;
 }
 
 .item-image {
@@ -524,7 +546,7 @@ p {
     width: 15vw;
     height: 20vh;
     transition: 4000ms cubic-bezier(0.075, 0.82, 0.165, 1);
-    filter: blur(10rem);
+    filter: blur(20rem);
   }
 
   .item-image:hover {
@@ -646,7 +668,8 @@ p {
   }
 
   .textcont:hover,
-  .textknow:hover {
+  .textknow:hover,
+  .textpro:hover {
     filter: grayscale(0);
     transition: all ease-in-out 350ms;
     background-color: #6dff2957;
@@ -735,7 +758,6 @@ p {
   }
 
   .knowledge h2 {
-    /* margin-top: -1rem; */
     font-size: 2.5rem;
   }
 
