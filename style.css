@@ -314,7 +314,7 @@ p {
   animation: fadeIn 0.8s;
 }
 
-.forms {
+.footer {
   color: var(--text-color);
   background-color: #00000000;
   margin-top: 60rem;
@@ -326,14 +326,14 @@ p {
   justify-content: space-around;
 }
 
-.forms article {
+.footerarticle {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.forms h1 {
+.footerh1 {
   font-size: 1.2rem;
   color: var(--text-color);
   animation: fadeIn 0.8s;
@@ -821,7 +821,7 @@ p {
     width: 80%;
   }
 
-  .forms h1 {
+  .footerh1 {
     text-align: center;
     font-size: 1.5rem;
   }
