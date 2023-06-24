@@ -26,7 +26,7 @@ socialBtn.addEventListener("click", toggleMenu);
 const circles = document.querySelectorAll(".logo");
 const center = document.querySelector(".logo-center");
 
-const n = 8; // numero de circulos
+const n = 9; // numero de circulos
 const r = 120; // radio
 
 let angulo = 0;
